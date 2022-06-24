@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <!--
+      This is the page head - it contains info the browser uses to display the page
+      You won't see what's in the head in the page
+      Scroll down to the body element for the page content
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <title>About me</title>
+
+    <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+    <meta
+      name="description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="About me!" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+    <meta
+      property="og:description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!--
+      This is the body of the page
+      Look at the elements and see how they appear in the rendered page on the right
+      Each element is defined using tags, with < and > indicating where each one opens and closes
+      There are elements for sections of the page, images, text, and more
+      The elements include attributes referenced in the CSS for the page style
+    -->
+
+    <!-- The wrapper and content divs set margins and positioning -->
+    <div class="wrapper">
+      <div class="content" role="main">
+        <!-- This is the start of content for our page -->
+        <h1 class="title">Personal Portfolio</h1>
+
+        <img
+          src="data:image/jpeg;base64,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"
+          class="illustration"
+          alt="Editor illustration"
+          title="Click the image!"
+        />
+        <!-- Instructions on using this project -->
+        <div class="instructions">
+          
+          <!-- ADD BUTTON HERE -->
+          
+          <!-- Once you've added the button from the readme, click it in the page -->
+          <!-- Check out the function in script.js to see how it works -->
+        </div>
+      </div>
+    </div>
+    <!-- The footer holds our remix button — you can use it for structure or cut it out ✂ -->
+    <footer class="footer">
+      <div class="links"></div>
+       </a>
+    <div class="links"></div>
+      <a
+        class="btn--remix"
+        target="_top"
+        href="/about"> About me
+        <a
+        class="btn--remix"
+        target="_top"
+        href="chap1">Chapter 1 
+      <a
+        class="btn--remix"
+        target="_top"
+        href="/chap2">Chapter 2  
+      <a
+        class="btn--remix"
+        target="_top"
+        href="/chap3">Chapter 3
+</a>
+        
+    </footer>
+  </body>
+</html>
